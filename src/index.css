@@ -1,0 +1,122 @@
+.kzui-wrapper {
+  background-color: #eef1f8;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.kzui-container {
+  position: relative;
+  width: 320px;
+  height: 384px;
+  font-size: 14px;
+}
+.kzui-selected {
+  background-color: white;
+  width: 320px;
+  position: relative;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.kzui-tech {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 6px 12px;
+  border: 2px solid #00000084;
+  background-color: #444444;
+  color: #d5d5d5;
+}
+.kzui-clear-all {
+  width: 100%;
+  text-align: right;
+}
+.kzui-clear {
+  color: #444444;
+  cursor: pointer;
+}
+.kzui-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  width: 310px;
+  gap: 10px;
+  border: 1px solid rgb(76, 76, 76);
+  border-radius: 10px;
+}
+.kzui-search-icon {
+  font-size: 17px;
+}
+.kzui-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  flex-grow: 1;
+  color: rgb(26, 138, 65);
+}
+.kzui-add {
+  font-size: 14px;
+  background-color: rgb(30, 30, 225);
+  color: rgb(218, 218, 218);
+  border-radius: 6px;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+.kzui-lists {
+  position: absolute;
+  width: 100%;
+  max-height: 210px;
+  margin-top: 10px;
+  padding: 4px;
+  display: flex;
+  overflow-y: auto;
+}
+.kzui-list-container {
+  width: 100%;
+}
+.kzui-list {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+  max-width: 100%;
+  list-style: none;
+}
+.kzui-list:hover {
+  background-color: rgb(56, 140, 235);
+  color: white;
+}
+.kzui-no-option {
+  padding: 8px;
+  color: #444444;
+}
+.kzui-scrollbar::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.kzui-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.kzui-scrollbar::-webkit-scrollbar-thumb {
+  background: #c9c9c9;
+  border-radius: 10px;
+}
+
+.kzui-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Custom Scrollbar for Firefox */
+.kzui-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
