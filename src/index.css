@@ -97,20 +97,19 @@
   padding: 8px;
   color: #444444;
 }
+
+/* custom scrollbar  */
 .kzui-scrollbar::-webkit-scrollbar {
   width: 12px;
   height: 12px;
 }
-
 .kzui-scrollbar::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
-
 .kzui-scrollbar::-webkit-scrollbar-thumb {
   background: #c9c9c9;
   border-radius: 10px;
 }
-
 .kzui-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
